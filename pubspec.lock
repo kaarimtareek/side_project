@@ -249,6 +249,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  mobx_provider:
+    dependency: "direct main"
+    description:
+      name: mobx_provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2+1"
   nested:
     dependency: transitive
     description:

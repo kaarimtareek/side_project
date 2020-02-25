@@ -1,5 +1,4 @@
 import '../core/logger.dart';
-import '../core/services/navigator_service.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 
@@ -10,6 +9,5 @@ class LocatorInjector {
 
   static Future<void> setupLocator() async {
     _log.d('Initializing Navigator Service');
-    locator.registerLazySingleton(() => NavigatorService());
   }
 }

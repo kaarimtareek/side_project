@@ -12,8 +12,6 @@ class SimpleLogPrinter extends LogPrinter {
     // TODO: implement log
     return null;
   }
-
-  
 }
 
 Logger getLogger(String className) {
